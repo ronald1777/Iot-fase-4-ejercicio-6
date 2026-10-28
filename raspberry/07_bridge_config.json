@@ -1,0 +1,10 @@
+{
+  "brokerServerUri": "tcp://localhost:1883",
+  "mqttTopicMapping": {
+    "Ruta_Laboratorio_a_Nube": {
+      "topic": "seccion10/#",
+      "source": "LocalMqtt",
+      "target": "IotCore"
+    }
+  }
+}
